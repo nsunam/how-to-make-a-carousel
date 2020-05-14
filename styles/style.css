@@ -12,9 +12,9 @@
 }
 
 #window img {
-    width: 200px;
+    width: 100px;
     /*transform: translate(-200px, 0);*/
-    animation: move 1s infinite;
+    animation: move 3s infinite;
 }
 
 @keyframes move {
@@ -22,6 +22,6 @@
         transform: translateX(0%);
     }
     to {
-        transform: translateX(-300%);
+        transform: translateX(-500%);
     }
 }
